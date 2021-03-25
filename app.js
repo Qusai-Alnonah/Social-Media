@@ -1,5 +1,4 @@
 // Welcome The User
-alert('Welcome'); 
 var userName = prompt('what is your name? ');
 alert('Welcome ' + userName);
 var NameSocial = prompt("What is your favorite Social Media Facebook ,Twitter,Github  ")
