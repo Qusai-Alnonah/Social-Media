@@ -16,3 +16,10 @@ if (NameSocial==='Youtube'){
     document.write(<img src = "https://pbs.twimg.com/profile_images/954305257898561536/k2qB-Igk_400x400.jpg"/>)
 }else {alert('Welcom')
 }
+ confirm(message?: string): boolean)
+var QusaiACC =prompt('If you to see more desgin Write more')
+if (QusaiACC==='more'){
+    document.write(<img src="https://qusai-alnonah.github.io/Social-Media/"/>)
+}else{
+    alert('Hi'+userName)
+}
