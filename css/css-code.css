@@ -1,0 +1,43 @@
+
+header {
+    background-color: #e7e0e0;
+    margin-top : 0%;
+}
+
+header h1  {
+    background-color: #67d4c0;
+    margin-top : 0%;
+    height : 250px; 
+    text-align: center;
+ 
+}
+
+header h2 {
+    background-color: aqua;
+    margin-top: 5%;
+    height: 100px;
+
+
+
+}
+
+.photo{
+    display: inline-grid;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+ .photo img {
+     height: 50px;
+     ;
+     
+ }
+
+ footer {
+     background-color: blue;
+     height: 30px;
+     color: burlywood;
+     text-align: center;
+ }
+
+ 
