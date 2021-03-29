@@ -1,15 +1,18 @@
-var nameSocial = prompt("What is your favorite Social Media Facebook ,Twitter,Github ,Youtube ");
+
+
 var userName = prompt("Pleas enter your username");
 function enterUsername (userName) {
     
 while (userName !== "Qusai-Alnonah") {
 var userName = prompt("Pleas enter correct username");
-alert('Username is Right' + userName);
 
 }
+    alert('Username is Right' );
+
 
 }
 enterUsername(userName); 
+
 var Password = prompt("Pleas enter your Password");
 function enterPassword(Password) {
     
@@ -22,8 +25,11 @@ function enterPassword(Password) {
 }
 enterPassword(Password);
 
+var nameSocial = prompt("What is your favorite Social Media Facebook ,Twitter,Github ,Youtube ");
 var repPhoto = prompt("how many time you wont to see the photo for your favarite site");
 
+function repetImage(repetPhoto) {
+    
 
 for (var i = 0; i <= repPhoto; i++) {
     
@@ -41,3 +47,6 @@ for (var i = 0; i <= repPhoto; i++) {
         alert('You Are Welcome');
     }
 }
+alert('repet is loading');
+}
+repetImage(repPhoto);

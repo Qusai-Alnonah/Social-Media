@@ -22,14 +22,15 @@ header h2 {
 }
 
 .photo{
-    display: inline-grid;
-    text-decoration: none;
+    display: inline-block;
+    text-decoration:none  ;
     font-weight: bold;
-
+    
 }
  .photo img {
      height: 50px;
-     ;
+     
+     
      
  }
 
